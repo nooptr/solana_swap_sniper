@@ -5,6 +5,8 @@
 ## 2.代理配置
 ```
 若无代理，注释main.py中关于配置的代码
+os.environ["http_proxy"] = "http://127.0.0.1:10809"
+os.environ["https_proxy"] = "http://127.0.0.1:10809"
 ```
 ## 3.依赖包配置
 ```
